@@ -3,8 +3,8 @@
   "type": "record",
   "name": "dmkEventRecord",
   "fields": [
-    { "name": "content_id",  "type": "string", "default":null},
-    { "name": "stay_time",  "type": "int", "default":null },
-    { "name": "content_click_time", "type": "string", "default":null }
+    { "name": "content_id",  "type": ["string", "null"], "default":null},
+    { "name": "stay_time",  "type": ["int", "null"], "default":null },
+    { "name": "content_click_time", "type": ["string", "null"], "default":null }
   ]
 }
